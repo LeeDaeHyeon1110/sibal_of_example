@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     AspectRatio(
-                      aspectRatio: 2.1 / 1,
+                      aspectRatio: 2.2 / 1,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -122,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                     AspectRatio(
-                      aspectRatio: 2.1 / 1,
+                      aspectRatio: 2.2 / 1,
                       child: ElevatedButton(
                         onPressed: () {
                           Navigator.of(context).push(
