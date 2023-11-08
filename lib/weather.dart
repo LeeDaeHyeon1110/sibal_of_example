@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class Weather extends StatefulWidget {
   const Weather({ super.key });
-  final apiKey = "u1kIH3rcC6DYfnTpKFua3IzeUpUB55LjZsVIh0rfx8vtk9JvNR2leEefWEr+otb/3TYrvqHGrNAE5y++ysRflg==";
+  final apiKey = "";
 
   @override
   State<Weather> createState() => WeatherState();

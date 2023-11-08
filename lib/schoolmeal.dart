@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class SchoolMeal extends StatefulWidget {
   const SchoolMeal({ super.key });
-  final apiKey = "f0491ec9a1784e2cb92d2a4070f1392b";
+  final apiKey = "";
 
   @override
   State<SchoolMeal> createState() => SchoolMealState();
