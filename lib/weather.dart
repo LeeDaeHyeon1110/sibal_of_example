@@ -134,7 +134,7 @@ class WeatherInfo {
       case 6:
         return "빗방울눌날림";
       case 7:
-        return "눈날림";
+        return "눈 날림";
       default:
         return "없음";
     }
