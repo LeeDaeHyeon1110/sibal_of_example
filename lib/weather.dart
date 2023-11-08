@@ -82,7 +82,7 @@ class WeatherState extends State<Weather> {
         .replace(
           queryParameters: {
             'ServiceKey': widget.apiKey,
-            'numOfRows': '1000',
+            'numOfRows': '100',
             'dataType': 'JSON',
             'base_date': '${date.year}${date.month.toString().padLeft(2, '0')}'
                          '${date.day.toString().padLeft(2, '0')}',
